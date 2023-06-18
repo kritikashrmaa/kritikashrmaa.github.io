@@ -1,0 +1,60 @@
+.event-card {
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  
+.event-card {
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .event-date {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .event-time {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 5px;
+  }
+  
+  .event-type {
+    font-size: 20px;
+    color: #ff6b6b;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .event-location,
+  .event-speaker {
+    font-size: 16px;
+    color: #888888;
+  }
+  
+  .event-location::before,
+  .event-speaker::before {
+    content: '\2022'; /* Bullet point */
+    color: #ff6b6b;
+    margin-right: 5px;
+  }
+  
+  .event-location {
+    margin-bottom: 5px;
+  }
