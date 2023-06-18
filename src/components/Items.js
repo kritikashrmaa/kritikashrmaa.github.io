@@ -245,4 +245,72 @@ export const events = [
       cover: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dGVjaHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
     },
   ];
+
+  export const articles = [
+    {
+      id: 1,
+      title: "Sample News Article 1",
+      urlToImage: "https://example.com/news-image1.jpg",
+      description: "This is the first sample news article.",
+      author: "John Doe",
+      publishedAt: "2023-06-18T10:30:00Z",
+    },
+    {
+      id: 2,
+      title: "Sample News Article 2",
+      urlToImage: "https://example.com/news-image2.jpg",
+      description: "This is the second sample news article.",
+      author: "Jane Smith",
+      publishedAt: "2023-06-17T14:45:00Z",
+    },
+    {
+      id: 3,
+      title: "Sample News Article 3",
+      urlToImage: "https://example.com/news-image3.jpg",
+      description: "This is the third sample news article.",
+      author: "James Johnson",
+      publishedAt: "2023-06-16T09:15:00Z",
+    },
+    {
+      id: 4,
+      title: "Sample News Article 4",
+      urlToImage: "https://example.com/news-image4.jpg",
+      description: "This is the fourth sample news article.",
+      author: "Emily Davis",
+      publishedAt: "2023-06-15T16:20:00Z",
+    },
+    {
+      id: 5,
+      title: "Sample News Article 5",
+      urlToImage: "https://example.com/news-image5.jpg",
+      description: "This is the fifth sample news article.",
+      author: "Michael Wilson",
+      publishedAt: "2023-06-14T11:55:00Z",
+    },
+    {
+      id: 6,
+      title: "Sample News Article 6",
+      urlToImage: "https://example.com/news-image6.jpg",
+      description: "This is the sixth sample news article.",
+      author: "Sarah Thompson",
+      publishedAt: "2023-06-13T19:40:00Z",
+    },
+    {
+      id: 7,
+      title: "Sample News Article 7",
+      urlToImage: "https://example.com/news-image7.jpg",
+      description: "This is the seventh sample news article.",
+      author: "David Anderson",
+      publishedAt: "2023-06-12T12:10:00Z",
+    },
+    {
+      id: 8,
+      title: "Sample News Article 8",
+      urlToImage: "https://example.com/news-image8.jpg",
+      description: "This is the eighth sample news article.",
+      author: "Olivia Turner",
+      publishedAt: "2023-06-11T15:30:00Z",
+    },
+  ];
+  
   
